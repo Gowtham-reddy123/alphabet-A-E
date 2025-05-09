@@ -1,0 +1,7 @@
+for x in range(6):
+	for y in range(5):
+		if y==0 or x==0 and y<4 or y==4 and 0<x<5 or x==5 and y<4:
+			print("*",end=" ")
+		else:
+			print(" ",end=" ")
+	print()
